@@ -1,11 +1,12 @@
 /* CABEÇALHO */
 
-.cabecalho__container {
+  .cabecalho__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
+    width: 100%;
   }
   
   .cabecalho__pesquisar__item {
@@ -35,11 +36,14 @@
 
   /* SECAO LATERAL */
   .sidebar__container{
+    
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-top: 80px;
   }
   
+
   
   /* VIDEO */
   
