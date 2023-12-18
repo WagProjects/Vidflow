@@ -25,15 +25,19 @@
     display: none;
   }
   
-  
-  /* SEÇÃO SUPERIOR */
-  
   .superior__secao__container {
     display: flex;
     align-items: center;
     white-space: nowrap;
     overflow: scroll;
     gap: 15px;
+  }
+
+  /* SECAO LATERAL */
+  .sidebar__container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
   }
   
   
