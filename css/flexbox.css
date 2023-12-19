@@ -35,37 +35,53 @@
   }
 
   /* SECAO LATERAL */
+
   .sidebar__container{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    margin-top: 80px;
+    display: fixed;
+    margin-top: 74px;
     width: 240px;
     height: 100%;
-    border: 1px solid #410000
+    bottom: 0%;
   }
+
   .sidebar__div{
-    border: 2px solid #000;
-    width: calc(100% - 15px);
-    margin-left: 15px;
-    margin-bottom: 5px;
-  }
-  
-  .sidebar__lista{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    justify-content: left;
+    margin-left: 15px;
+    border-bottom: 1px solid rgba(20, 68, 128, 1)
+    ;
+    width: calc(100% - 15px);
+    padding: 10px 0;
+  }
+
+  .sidebar__div p{
+    text-transform: uppercase;
+    margin: 10px 0 10px 10px;
+    text-align: left;
   }
 
   .sidebar__lista__item{
-    padding-bottom: 5px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+  }
+
+  .sidebar__lista__item:hover{
+    background-color: #e2e2e2;
+  }
+  
+  .sidebar__lista a{
+    display: flex;
     align-items: center;
   }
 
-  .sidebar__lista__item img{
-    margin-right: 5px;
+  .sidebar__lista__item a img{
+    margin-right: 10px;
   }
 
+  .sidebar__no-border{
+    border-bottom: none;
+  }
   
   /* VIDEO */
   
