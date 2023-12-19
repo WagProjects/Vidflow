@@ -58,7 +58,12 @@
   }
 
   .sidebar__lista__item{
-    margin-bottom: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+  }
+
+  .sidebar__lista__item img{
+    margin-right: 5px;
   }
 
   
