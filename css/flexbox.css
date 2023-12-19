@@ -42,6 +42,17 @@
     margin-top: 100px;
   }
   
+  .sidebar__div{
+    border-bottom: 1px solid #000;
+    margin-left: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar__lista{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
 
   
   /* VIDEO */
