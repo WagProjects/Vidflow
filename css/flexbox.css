@@ -46,6 +46,7 @@
   
   .sidebar__div{
     border-bottom: 1px solid #000;
+    width: 100%;
     margin-left: 5px;
     margin-bottom: 5px;
   }
