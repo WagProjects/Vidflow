@@ -40,6 +40,8 @@
     flex-direction: column;
     align-items: start;
     margin-top: 100px;
+    width: 240px;
+    height: 100%;
   }
   
   .sidebar__div{
