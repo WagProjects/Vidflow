@@ -20,6 +20,10 @@ Execute o seguinte comando para iniciar o JSON Server e usá-lo com o arquivo vi
     json-server --watch backend/videos.json
 Obs.:
 
-    --watch: Este é um dos argumentos que você pode fornecer opcionalmente ao comando JSON Server. A opção --watch é usada para especificar que o servidor deve ficar "observando" um arquivo JSON específico para quaisquer mudanças. Isso significa que se você modificar o arquivo videos.json, o JSON Server automaticamente recarregará os dados para refletir as alterações.
+    --watch: Este é um dos argumentos que você pode fornecer opcionalmente ao comando JSON Server. 
+    A opção --watch é usada para especificar que o servidor deve ficar "observando" 
+    um arquivo JSON específico para quaisquer mudanças. 
+    Isso significa que se você modificar o arquivo videos.json, 
+    o JSON Server automaticamente recarregará os dados para refletir as alterações.
 
 O JSON Server será iniciado e começará a servir uma `API REST` falsa com base nos dados do arquivo `videos.json`, o que vai nos permitir o consumo dos dados para o VidFlow.
