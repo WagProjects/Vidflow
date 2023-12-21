@@ -13,7 +13,7 @@ Isso fará com que o JSON Server seja instalado globalmente em seu sistema, e vo
 
 O arquivo JSON videos.json, que está dentro da pasta backend do projeto ```Vidflow\backend\videos.json```, servirá como a fonte de dados para o JSON Server simular uma ```API fake```.
 
-### 👣 Passo 5: Inicialização do JSON Server
+### 👣 Passo 3: Inicialização do JSON Server
 
 Execute o seguinte comando para iniciar o JSON Server e usá-lo com o arquivo videos.json:
 
